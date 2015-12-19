@@ -11,7 +11,7 @@ This image is used as a base image for *all* JBoss community images. It provides
 
 ### Operating system
 
-This image uses CentOS 7.
+This image uses Ubuntu 14.04. `apt-get` commands taken from Arun Gupta's repo - https://github.com/arun-gupta/docker-images/blob/master/wildfly-ubuntu/Dockerfile
 
 ### Working directory
 
@@ -19,4 +19,4 @@ This image has the working directory set to `/opt/jboss`, which is the `jboss` u
 
 ### Availability
 
-The `Dockerfile` is available in the `master` branch and is built in the Docker HUB as `jboss/base:latest`.
+The `Dockerfile` is available in the `master` branch.
